@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <!-- header nav -->
+    <header class="main-head">
+        <div class="container">
+            <div class="main-menu">
+                <div class="logo">
+                    <img src="Logo-2.png" alt="">
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-list-item">
+                            <a href="#about" onclick="showSection('about')" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#menu" onclick="showSection('menu')" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#store" onclick="showSection('store')" class="nav-link">Store</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#investors" onclick="showSection('inverstos')" class="nav-link">Investors</a>
+                        </li>
+                        <li class="nav-list-item">
+                          <a href="#GCG" onclick="showSection('GCG')" class="nav-link">GCG</a>
+                        </li>
+                        <li class="nav-list-item">
+                          <a href="#collaboration" onclick="showSection('collaboration')" class="nav-link">Collaborations</a>
+                        </li>
+                        <li class="nav-list-item">
+                          <a href="#news" onclick="showSection('news')" class="nav-link">News</a>
+                        </li>
+                        <li class="nav-list-item">
+                          <a href="#career" onclick="showSection('career')" class="nav-link">career</a>
+                        </li>
+                        <li class="nav-list-item">
+                          <a href="#contactus" onclick="showSection('contactus')" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="language-app-group">
+                      <div class="language-select">
+                          <img src="https://flagcdn.com/id.svg" class="flag" alt="ID Flag">
+                          <span>ID ▼</span>
+                      </div>
+                      <button class="download-btn">Download App</button>
+              
+                      <div class="language-toggle">
+                          <span>EN</span>
+                          <div class="divider"></div>
+                          <span class="inactive">ID</span>
+                      </div>
+                  </div>
+              </div>
+              
+                </div>
+                <div class="toggle-btn"> <!-- toggle humberger -->
+                    <button class="btn">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header nav -->
+
+    <!-- section page -->
+    <section class="showcase page-section active" id="home">
+        <div class="overlay"></div>
+    
+        <div class="container slide-1 active">
+            <div class="content">
+                <h2>Lore 1 (saingan berat Fore)</h2>
+                <p>Di Lore Coffee, kami percaya secangkir kopi lebih dari sekadar minuman — ini adalah cerita, ritual, momen. Dari benih hingga tegukan, setiap langkah berakar pada kepedulian dan niat. Selamat datang di babak baru budaya kopi — yang diseduh dengan cermat untuk kehidupan modern.</p>
+            </div>
+        </div>
+        <div class="container slide-2">
+            <div class="content">
+                <h2>Lore 2 (masih saingan Fore)</h2>
+                <p>Quas amet, praesentium et sit, saepe pariatur dolore accusantium. Dolorem labore ut voluptas.</p>
+            </div>
+        </div>
+        <div class="container slide-3">
+            <div class="content">
+                <h2>Lore 3 (gak nyerah lawan Fore)</h2>
+                <p>Temporibus eveniet earum deleniti saepe quidem laborum error possimus nulla excepturi optio.</p>
+            </div>
+        </div>
+    
+        <div class="arrow-left" onclick="prevSlide()">&#10094;</div>
+        <div class="arrow-right" onclick="nextSlide()">&#10095;</div>
+    </section>
+
+    <section class="page-section demo-text" id="about">
+        <div class="container">
+            <div class="img">
+              <img src="2.jpg" alt="">
+            </div>
+            <div class="content">
+              <h2>Tentang Kami</h2>
+              <p>Didirikan pada tahun 2023, Lore Coffee lahir dari keinginan untuk membuat kopi spesial lebih pribadi, berkelanjutan, dan mudah diakses. Nama "Lore" mencerminkan hasrat kami untuk membuat cerita di setiap cangkir — memadukan tradisi yang mengakar dengan pembuatan bir yang inovatif.
+
+                Kami bermitra langsung dengan petani lokal, memanggang dalam jumlah kecil, dan melayani dengan tujuan. Baik Anda sedang bepergian atau berhenti sejenak untuk kedamaian, Lore hadir untuk memperkaya hari Anda — satu teguk penuh perhatian pada satu waktu.</p>
+            </div>
+          </div>
+    </section>
+    <section class="page-section demo-text" id="blog">
+        <div class="container">
+            <div class="img">
+              <img src="2.jpg" alt="">
+            </div>
+            <div class="content">
+              <h2>Blog</h2>
+              <p>
+                Selami kisah-kisah yang diseduh dari hati - di balik biji kopi, barista kami, dan komunitas yang kami tumbuhkan.</p>
+            </div>
+          </div>
+    </section>
+
+    <section class="page-section demo-text" id="contact">
+        <div class="container">
+          <div class="content">
+            <h2>Hubungi Kami</h2>
+            <p>Kami siap membantu Anda kapan pun. Silakan kontak kami melalui form atau sosial media.</p>
+          </div>
+          <div class="img">
+            <img src="1.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <!-- end section page -->
+    
+    <!-- demo section -->
+    <div class="demo-text" id="demo_1">
+        <div class="container">
+            <div class="content">
+                <h2>Lore (saingan berat Fore)</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusantium, dolorum iure similique doloribus necessitatibus ipsa debitis mollitia? Voluptatibus pariatur saepe placeat molestiae perferendis tenetur temporibus eius, quaerat possimus totam.</p>
+            </div>
+            <div class="img">
+                <img src="paulo-felipe-assis-NCbfPjjFJtA-unsplash.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="demo-text" id="demo_2">
+        <div class="container">
+            <div class="img">
+                <img src="serveCoffe.webp" alt="">
+            </div>
+            <div class="content">
+                <h2>Lore (saingan berat Fore)</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusantium, dolorum iure similique doloribus necessitatibus ipsa debitis mollitia? Voluptatibus pariatur saepe placeat molestiae perferendis tenetur temporibus eius, quaerat possimus totam.</p>
+            </div>
+        </div>
+    </div>
+    <div class="demo-text" id="demo_3">
+        <div class="container">
+            <div class="content">
+                <h2>Lore (saingan berat Fore)</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusantium, dolorum iure similique doloribus necessitatibus ipsa debitis mollitia? Voluptatibus pariatur saepe placeat molestiae perferendis tenetur temporibus eius, quaerat possimus totam.</p>
+            </div>
+            <div class="img">
+                <img src="coffe.avif" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end demo section -->
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-logo">
+            <img src="logo-testi.svg" alt="Fore Coffee Logo" />
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Perusahaan</h4>
+              <ul>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Karier</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Bantuan</h4>
+              <ul>
+                <li><a href="#">Kontak</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Kebijakan Privasi</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Ikuti Kami</h4>
+              <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 . Semua hak dilindungi.</p>
+        </div>
+      </footer>
+      
+</body>
+</html>
