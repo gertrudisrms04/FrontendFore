@@ -654,8 +654,10 @@ html{
 }
 
 .menu-title {
+  padding-top: 10px;
   font-size: 72px;
   text-align: center;
+  justify-content: center;
   color: #b5bf71;
   font-weight: 300;
   letter-spacing: 10px;
@@ -663,11 +665,12 @@ html{
 }
 
 .service-type {
-  text-align: center;
+  text-align:center;
   font-weight: 500;
   border: 2px dashed #b5bf71;
+  justify-content: center;
   padding: 10px 20px;
-  display: inline-block;
+  display: flex;
   border-radius: 30px;
   margin: auto;
   margin-bottom: 40px;
