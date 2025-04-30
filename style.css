@@ -166,20 +166,33 @@ html{
 }
 
 
-.slide-1{
-    background: url('the-unmistakables--P8DckEf8X8-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.slide-1 {
+  background-color: #F5F3F0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Agar gambar latar belakang menutupi seluruh elemen */
+  width: 100vw; /* Menetapkan lebar 100% dari viewport */
+  height: 100vh; /* Menetapkan tinggi 100% dari viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Menjaga konten tetap terpusat di tengah */
 }
+.showcase .content h1 {
+  color: #4CAF50; /* Hijau */
+}
+.showcase .content p {
+  color: #8B5E3C; /* Coklat */
+}
+
+
 .slide-2{
-    background: url('karl-fredrickson-TYIzeCiZ_60-unsplash.jpg');
+    background-color: #F5F3F0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .slide-3{
-    background: url('daria-gordova-3eyXPL70dhg-unsplash.jpg');
+    background-color: #F5F3F0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -541,6 +554,11 @@ html{
     cursor: pointer;
   }
   
+  .download-btn:hover {
+    background-color: #0b5e34;
+    color: white;
+  }
+
   .language-toggle {
     display: flex;
     align-items: center;

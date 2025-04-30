@@ -48,9 +48,14 @@
                     </ul>
                     <div class="language-app-group">
                       <div class="language-select">
-                          <img src="https://flagcdn.com/id.svg" class="flag" alt="ID Flag">
-                          <span>ID ▼</span>
-                      </div>
+                        <label for="language">
+                          <img src="https://flagcdn.com/id.svg" class="flag" alt="Language Flag">
+                        </label>
+                        <select id="language" onchange="updateLanguageFlag(this.value)">
+                          <option value="id" selected>Indonesia</option>
+                          <option value="sg">Singapore</option>
+                        </select>
+                      </div>                      
                       <button class="download-btn">Download App</button>
               
                       <div class="language-toggle">
@@ -78,8 +83,11 @@
     
         <div class="container slide-1 active">
             <div class="content">
-                <h2>Lore 1 (saingan berat Fore)</h2>
-                <p>Di Lore Coffee, kami percaya secangkir kopi lebih dari sekadar minuman — ini adalah cerita, ritual, momen. Dari benih hingga tegukan, setiap langkah berakar pada kepedulian dan niat. Selamat datang di babak baru budaya kopi — yang diseduh dengan cermat untuk kehidupan modern.</p>
+                <h1>Grind The<br>Essentials</h1>
+                <p>Dibuat dari biji kopi Indonesia pilihan untuk pengalaman minum kopi terbaik setiap hari</p>
+            </div>
+            <div class="image">
+              <img src="cup.png" alt="Kopi Fore">
             </div>
         </div>
         <div class="container slide-2" >
