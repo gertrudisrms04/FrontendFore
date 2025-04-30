@@ -641,3 +641,108 @@ html{
     opacity: 0.3;
     pointer-events: none;
 }
+.menu-section{
+  display: none;
+}
+.menu-section.active{
+  display: block;
+}
+.menu-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.menu-title {
+  font-size: 72px;
+  text-align: center;
+  color: #b5bf71;
+  font-weight: 300;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+.service-type {
+  text-align: center;
+  font-weight: 500;
+  border: 2px dashed #b5bf71;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.service-type span {
+  margin: 0 8px;
+}
+
+.service-type .active {
+  font-weight: 700;
+}
+
+.menu-container {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-sidebar {
+  width: 20%;
+}
+
+.menu-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-sidebar li {
+  margin: 15px 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.menu-sidebar li.active {
+  color: #000;
+}
+
+.menu-content {
+  width: 80%;
+}
+
+.series-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.items {
+  display: flex;
+  gap: 30px;
+}
+
+.item {
+  flex: 1;
+  max-width: 300px;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item h3 {
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+
+.price {
+  color: #914c25;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
