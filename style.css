@@ -78,6 +78,13 @@ html{
     flex-grow: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.main-head .main-menu .nav-menu .language-app-group{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 0 15px 15px;
 }
 
 .main-head .main-menu .nav-menu .nav-list {
