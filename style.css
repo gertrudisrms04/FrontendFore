@@ -483,6 +483,10 @@ html{
     animation: fadeIn 0.4s ease-in-out;
   }
 
+  .demo-text.hide {
+    display: none;
+  }
+
   .page-section.active {
     display: block;
   }

@@ -38,9 +38,27 @@ function prevSlide() {
 }
 
 function showSection(id) {
-    document.querySelectorAll('.page-section').forEach(el => el.classList.remove('active'));
-    document.getElementById(id).classList.add('active');
+  // Sembunyikan semua section
+  document.querySelectorAll('.page-section').forEach(el => el.classList.remove('active'));
+
+  // Tampilkan section sesuai ID
+  const target = document.getElementById(id);
+  target.classList.add('active');
+
+  // Sembunyikan demo-text jika ada
+  document.querySelectorAll('.demo-text').forEach(el => el.classList.add('hide'));
+
+  // Jika section yang ditampilkan sudah aktif, sembunyikan demo-text
+  if (target.classList.contains('active')) {
+      document.querySelectorAll('.demo-text').forEach(el => el.classList.add('hide'));
   }
+
+  if(target.id === 'home'){
+    document.querySelectorAll('.demo-text').forEach(el => el.classList.remove('hide'));
+    document.querySelectorAll('.our-story-section').forEach(el => el.classList.add('active'));
+  }
+}
+
 
   document.addEventListener('DOMContentLoaded', function () {
     const playButton = document.getElementById('play-button');
@@ -49,3 +67,4 @@ function showSection(id) {
         window.open('https://www.youtube.com/watch?v=VyRXUnCSXUM', '_blank');
     });
 });
+
