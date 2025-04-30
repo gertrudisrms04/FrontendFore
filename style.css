@@ -617,6 +617,7 @@ html{
 }
 
 .main-title {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 120px;
     font-weight: bold;
     color: #006837; /* hijau khas Fore Coffee */
@@ -628,17 +629,18 @@ html{
 }
 
 .background-title {
-    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
     font-weight: bold;
     color: transparent;
-    -webkit-text-stroke: 1px #b4b0b0;
+    -webkit-text-stroke: 1px #929090;
     text-transform: lowercase;
     position: absolute;
     top: -30px;
     left: 0;
     z-index: 1;
     white-space: nowrap;
-    opacity: 0.3;
+    opacity: 1;
     pointer-events: none;
 }
 .menu-section{
