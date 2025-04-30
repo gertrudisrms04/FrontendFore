@@ -665,6 +665,7 @@ html{
 }
 
 .service-type {
+  font-family: 'Inter', sans-serif;
   text-align:center;
   font-weight: 500;
   border: 2px dashed #b5bf71;
