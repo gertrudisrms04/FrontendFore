@@ -186,12 +186,14 @@ html{
 
 
 .slide-2{
+    background-image: url('kuncit_2.png');
     background-color: #F5F3F0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .slide-3{
+    background-image: url('daria-gordova-3eyXPL70dhg-unsplash.jpg'); 
     background-color: #F5F3F0;
     background-size: cover;
     background-position: center;

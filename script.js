@@ -41,3 +41,11 @@ function showSection(id) {
     document.querySelectorAll('.page-section').forEach(el => el.classList.remove('active'));
     document.getElementById(id).classList.add('active');
   }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const playButton = document.getElementById('play-button');
+
+    playButton.addEventListener('click', function () {
+        window.open('https://www.youtube.com/watch?v=VyRXUnCSXUM', '_blank');
+    });
+});
