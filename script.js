@@ -55,8 +55,8 @@ function showSection(id) {
 
   if(target.id === 'home'){
     document.querySelectorAll('.demo-text').forEach(el => el.classList.remove('hide'));
-    document.querySelectorAll('.menu-section').forEach(el => el.classList.remove('active'));
     document.querySelectorAll('.our-story-section').forEach(el => el.classList.add('active'));
+    document.querySelectorAll('.menu-section').forEach(el => el.classList.remove('active'));
   }
 }
 
