@@ -364,7 +364,7 @@ html{
 }
 .demo-text{
     width: 100%;
-    padding: 80px 0 80px 0;
+    padding: 20px 0 20px 0;
 }
 .demo-text .container{
     display: flex;
@@ -603,7 +603,7 @@ html{
   }
   .our-story-section {
     position: relative;
-    padding: 100px 0;
+    padding: 0;
     background: white;
     overflow: hidden;
 }
