@@ -764,6 +764,14 @@ html{
   text-align: center;
 }
 
+.news-section.hide{
+  display: none;
+}
+
+.news-section.active{
+  display: block;
+}
+
 .news-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
