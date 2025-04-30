@@ -541,6 +541,11 @@ html{
     cursor: pointer;
   }
   
+  .download-btn:hover {
+    background-color: #0b5e34;
+    color: white;
+  }
+  
   .language-toggle {
     display: flex;
     align-items: center;

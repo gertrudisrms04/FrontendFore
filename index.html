@@ -48,9 +48,14 @@
                     </ul>
                     <div class="language-app-group">
                       <div class="language-select">
-                          <img src="https://flagcdn.com/id.svg" class="flag" alt="ID Flag">
-                          <span>ID ▼</span>
-                      </div>
+                        <label for="language">
+                          <img src="https://flagcdn.com/id.svg" class="flag" alt="Language Flag">
+                        </label>
+                        <select id="language" onchange="updateLanguageFlag(this.value)">
+                          <option value="id" selected>Indonesia</option>
+                          <option value="sg">Singapore</option>
+                        </select>
+                      </div>                      
                       <button class="download-btn">Download App</button>
               
                       <div class="language-toggle">
