@@ -377,6 +377,7 @@ html{
     width: 100%;
 }
 .demo-text .container .content{
+
     padding: 80px 40px;
 }
 .demo-text .content h2{
@@ -489,6 +490,7 @@ html{
 
   .page-section.active {
     display: block;
+    animation: fadeIn 0.4s ease-in-out;
   }
 
   .showcase {
@@ -603,7 +605,7 @@ html{
   }
   .our-story-section {
     position: relative;
-    padding: 0;
+    padding: 0 20px;
     background: white;
     overflow: hidden;
 }
@@ -613,7 +615,32 @@ html{
     text-align: left;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.news-sect {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    color: #006837; /* hijau khas Fore Coffee */
+    z-index: 2;
+    position: relative;
+    margin: 0;
+    bottom: -20px;
+    pointer-events: none;
+}
+  .our-story-section {
+    position: relative;
     padding: 0 20px;
+    background: white;
+    overflow: hidden;
+}
+
+.our-story-title {
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px 20px;
 }
 
 .main-title {
